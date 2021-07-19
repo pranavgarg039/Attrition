@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Dec 18 03:07:58 2020
-
-@author: Pranav
-"""
-
 import numpy as np
 import pandas as pd
 import pickle
@@ -12,7 +5,7 @@ import streamlit as st
 
 def main():
     st.header('Employee Attrition Predictor')
-    st.subheader(""" Made with :heart: by Pranav Garg """)
+    st.subheader(""" Made with :heart: by Pranav G. and Swapnil S. """)
     def input_features() :
         st.sidebar.header('Slide the sliders to change the variables.')
         age = st.sidebar.slider('Age of employee', 18,65,30)
